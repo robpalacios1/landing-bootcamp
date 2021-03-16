@@ -36,9 +36,13 @@ The URL of the project is as follows:
 - Twitter - [@TatianaPenaM](https://twitter.com/TatianaPenaM)
 - LinkedIn - [tatianapenam](https://www.linkedin.com/in/tatianapenam/)
 
-Roberto Palacios [Twitter](https://twitter.com/robpalacios11) | [GitHub](https://github.com/robpalacios1)
 
-_Developed by_
+**Roberto Palacios** :computer: :man: 
+
+- Github - [robpalacios1](https://github.com/robpalacios1)
+- Twitter - [@robpalacios11](https://twitter.com/robpalacios11)
+- LinkedIn - [Roberto-Palacios](https://www.linkedin.com/in/robpalacios1/)
+
 
 **Yoyman Castellar** :computer: :man: 
 
