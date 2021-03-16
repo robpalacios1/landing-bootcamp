@@ -1,7 +1,38 @@
-@import './global/general';
-@import './global/settings';
-@import './common/header';
+@import './global/_general';
+@import './global/_settings';
+@import './common/_header';
+@import './_section';
 
+.main-section {
+    background-color: gray;
+    width: 100%;
+}
 
+.main-section__title {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    color: $dark-purple;
+}
 
+.main-section__images {
+    display: flex;
+}
+
+.main-section__payable {
+    
+}
+
+.main-section__paypal {
+    display: none;
+}
+
+.main-section__main-subtitle {
+    text-align: center;
+    font-size: 20px;
+}
 
