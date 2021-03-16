@@ -4,8 +4,6 @@
   padding: 0px;
   overflow-x: hidden;
   font-family: 'Roboto';
-<<<<<<< HEAD
-=======
 }
 
 .main-section {
@@ -43,5 +41,4 @@ body {
 .main-section__main-subtitle {
   text-align: center;
   font-size: 20px;
->>>>>>> 5fe7277 (add main-section)
 }
