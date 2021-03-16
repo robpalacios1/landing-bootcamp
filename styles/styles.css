@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+<<<<<<< HEAD
 * {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   font-family: 'Roboto';
 }
+=======
+
+* {
+  margin     : 0px;
+  padding    : 0px;
+  overflow-x : hidden;
+  font-family: 'Roboto';
+}
+>>>>>>> 8a78341... style link and sass file fixed
