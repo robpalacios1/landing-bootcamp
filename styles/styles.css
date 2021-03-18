@@ -4,7 +4,6 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-<<<<<<< HEAD
   font-family: "Roboto";
 }
 
@@ -2494,7 +2493,4 @@
   .footer__container-center {
     padding-left: 7rem;
   }
-=======
-  font-family: 'Roboto';
->>>>>>> cdc238d... style link and sass file fixed
 }
