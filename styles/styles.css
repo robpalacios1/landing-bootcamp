@@ -7,16 +7,14 @@
 }
 
 .main-section {
-  background-color: coral;
-}
-
-body {
-  background-color: greenyellow;
-}
-
-.main-section {
-  background-color: gray;
+  background-color: #FFFFFF;
   width: 100%;
+  height: auto;
+}
+
+.main-section__container {
+  max-width: 1435px;
+  margin: 0 auto;
 }
 
 .main-section__title {
@@ -31,7 +29,31 @@ body {
 }
 
 .main-section__images {
+  justify-content: center;
+}
+
+.main-section__payable {
   display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.main-section__payable-cell {
+  display: flex;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  overflow-y: hidden;
+}
+
+.main-section__apple {
+  display: none;
+}
+
+.main-section__subtitle {
+  border-radius: 20px;
 }
 
 .main-section__paypal {
@@ -41,4 +63,295 @@ body {
 .main-section__main-subtitle {
   text-align: center;
   font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 70px;
+  color: #272D4E;
+}
+
+.main-section__span {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #94A2B3;
+}
+
+.main-section__link {
+  display: none;
+}
+
+.main-section__pictures {
+  display: none;
+}
+
+.main-section__cellphone {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.main-section__cellphone-app {
+  display: flex;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.main-section__developer {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.main-section__developer-code {
+  display: flex;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .main-section {
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+  }
+  .main-section__payable {
+    justify-content: center;
+    position: relative;
+  }
+  .main-section__payable-cell {
+    position: relative;
+  }
+  .main-section__pictures {
+    display: flex;
+  }
+  .main-section__paypal {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 9px;
+    top: 15px;
+  }
+  .main-section__cellphone {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .main-section__cellphone-app {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .main-section__square {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: -50px;
+  }
+  .main-section__facebook {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: -50px;
+    bottom: 0px;
+  }
+  .main-section__google {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 103px;
+    left: 150px;
+  }
+  .main-section__mailchimb {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: -370px;
+  }
+  .main-section__jetpack {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: -370px;
+  }
+  .main-section__developer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .main-section__developer-code {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .main-section__laptop {
+    position: absolute;
+    left: -50px;
+  }
+  .main-section__friends {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+  }
+  .main-section__girls {
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-section__title-main {
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 100px;
+    text-align: center;
+    color: #272D4E;
+  }
+  .main-section__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-section__payable {
+    margin-top: 100px;
+  }
+  .main-section__paypal {
+    width: 50%;
+    height: auto;
+    top: 46px;
+  }
+  .main-section__apple {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 417px;
+  }
+  .main-section__cellphone {
+    margin-top: 180px;
+    margin-left: 20px;
+  }
+  .main-section__cellphone-app {
+    overflow-y: hidden;
+  }
+  .main-section__square {
+    width: 177px;
+    height: 153px;
+    top: -40px;
+    left: 30px;
+  }
+  .main-section__facebook {
+    width: 177px;
+    height: 153px;
+    left: 30px;
+    bottom: 80px;
+  }
+  .main-section__google {
+    width: 177px;
+    height: 153px;
+    left: 114px;
+    bottom: -40px;
+  }
+  .main-section__mailchimb {
+    width: 177px;
+    height: 153px;
+    top: 15px;
+    left: 257px;
+  }
+  .main-section__jetpack {
+    width: 177px;
+    height: 153px;
+    top: 130px;
+    left: 184px;
+  }
+  .main-section__developer {
+    margin-top: 280px;
+    margin-left: 20px;
+  }
+  .main-section__developer-code {
+    overflow-y: hidden;
+  }
+  .main-section__laptop {
+    width: auto;
+    height: 125px;
+    top: -33px;
+    left: 8px;
+    overflow-y: hidden;
+  }
+  .main-section__friends {
+    width: 187px;
+    height: auto;
+    top: -29px;
+    left: 189px;
+  }
+  .main-section__girls {
+    width: 286px;
+    height: auto;
+    bottom: -6px;
+  }
+  .main-section__main-subtitle {
+    text-align: left;
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 70px;
+    color: #272D4E;
+  }
+  .main-section__span {
+    text-align: left;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #94A2B3;
+  }
+  .main-section__link {
+    display: flex;
+  }
+  .main-section__link-social {
+    display: inline-block;
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 37px;
+    text-decoration: none;
+    color: #299EF3;
+  }
+}
+
+@media screen and (max-width: 1435px) {
+  .main-section__container {
+    width: 90%;
+  }
 }
