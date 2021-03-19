@@ -1,65 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/styles.css" />
-  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-  <title>LaslesVPN</title> 
-</head>
-<body>
-  <header class="header js-header">
-    <div class="container">
-      <div class="flexbox">  
-        <div class="burger">
-          <div class="burger__button js-burger-button"></div>
-          <div class="burger__close js-burger-close">
-            <img src="./assets/burger-close.svg" alt="Icon burger close">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>LaslesVPN</title>
+  </head>
+  <body>
+    <header class="header js-header">
+      <div class="container">
+        <div class="flexbox">
+          <div class="burger">
+            <div class="burger__button js-burger-button"></div>
+            <div class="burger__close js-burger-close">
+              <img src="./assets/burger-close.svg" alt="Icon burger close" />
+            </div>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Sell</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Marketplace</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Community</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Develop</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="logo">
+            <img
+              class="logo__mobile"
+              src="./assets/logo-mobile.svg"
+              alt="Icon logo mobile"
+            />
+            <img
+              class="logo__desktop"
+              src="./assets/logo-lasles.svg"
+              alt="Icon logo"
+            />
+          </div>
+          <div class="mobile-access">
+            <a class="mobile-access__login" href="#">Log In</a>
+            <a class="mobile-access__btn" href="#">Get Started</a>
+          </div>
+          <div class="access">
+            <a class="access__login" href="#">Log In</a>
+            <a class="access__btn" href="#">Get Started</a>
+            <img
+              class="acces__img"
+              src="./assets/icon-search.svg"
+              alt="Icon Search"
+            />
+          </div>
+          <div class="mobile-search">
+            <img
+              class="mobile-search__img"
+              src="./assets/icon-search.svg"
+              alt="Icon Search"
+            />
           </div>
         </div>
-        <nav class="menu"> 
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Sell</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Marketplace</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Community</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Develop</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Resources</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="logo">
-          <img class="logo__mobile" src="./assets/logo-mobile.svg" alt="Icon logo mobile">
-          <img class="logo__desktop" src="./assets/logo-lasles.svg" alt="Icon logo">
+      </div>
+    </header>
+
+    <section class="main-section">
+      <div class="main-section__container">
+        <div class="main-section__title">
+          <div class="main-section__title-main">
+            <h2>Your VPN <br />made simple</h2>
+          </div>
         </div>
-        <div class="mobile-access">
-          <a class="mobile-access__login" href="#">Log In</a>
-          <a class="mobile-access__btn" href="#">Get Started</a>
-        </div>
-        <div class="access">
-          <a class="access__login" href="#">Log In</a>
-          <a class="access__btn" href="#">Get Started</a>
-          <img class="acces__img" src="./assets/icon-search.svg" alt="Icon Search">
-        </div>
-        <div class="mobile-search">
-            <img class="mobile-search__img" src="./assets/icon-search.svg" alt="Icon Search">
+
+        <div class="main-section__wrapper">
+          <div class="main-section__images">
+            <div class="main-section__payable">
+              <div class="main-section__payable-cell">
+                <img src="./assets/pay.png" alt="pay" />
+                <div class="main-section__pictures">
+                  <div class="main-section__paypal">
+                    <img src="./assets/paypal.png" alt="paypal" />
+                  </div>
+                  <div class="main-section__apple">
+                    <img src="./assets/apple-pay.png" alt="apple-pay" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-section__subtitle">
+              <div class="main-section__main-subtitle">
+                <h3>All You Need to Start</h3>
+              </div>
+              <div class="main-section__span">
+                <div class="main-section__span-title">
+                  <span
+                    >Add LaslesVPN plugin to any WordPress site and <br />
+                    set up a new store in minutes</span
+                  >
+                </div>
+              </div>
+              <div class="main-section__link">
+                <a class="main-section__link-social" href="#"
+                  >Ecommerce for Wordpress ></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="main-section__images">
+            <div class="main-section__cellphone">
+              <div class="main-section__cellphone-app">
+                <img src="./assets/cellphone.png" alt="cellphone" />
+                <div class="main-section__pictures">
+                  <div class="main-section__square">
+                    <img src="./assets/square.png" alt="square" />
+                  </div>
+                  <div class="main-section__facebook">
+                    <img src="./assets/facebook.png" alt="facebook" />
+                  </div>
+                  <div class="main-section__google">
+                    <img src="./assets/google.png" alt="google-ads" />
+                  </div>
+                  <div class="main-section__mailchimb">
+                    <img src="./assets/mailchimb.png" alt="mailchimb" />
+                  </div>
+                  <div class="main-section__jetpack">
+                    <img src="./assets/jetpack.png" alt="jetpack" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-section__subtitle">
+              <div class="main-section__main-subtitle">
+                <h3>Customize and Extend</h3>
+              </div>
+              <div class="main-section__span">
+                <div class="main-section__span-title">
+                  <span
+                    >From subscriptions to gym classes to luxury cars, LaslesVPN
+                    is fully customizable</span
+                  >
+                </div>
+              </div>
+              <div class="main-section__link">
+                <a class="main-section__link-social" href="#"
+                  >Browse Extensions ></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="main-section__images">
+            <div class="main-section__developer">
+              <div class="main-section__developer-code">
+                <img src="./assets/developers.png" alt="developers" />
+                <div class="main-section__pictures">
+                  <div class="main-section__laptop">
+                    <img src="./assets/laptop.png" alt="laptop" />
+                  </div>
+                  <div class="main-section__friends">
+                    <img src="./assets/friends.png" alt="friends" />
+                  </div>
+                  <div class="main-section__girls">
+                    <img src="./assets/girls.png" alt="girls" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-section__subtitle">
+              <div class="main-section__main-subtitle">
+                <h3>Activate Community</h3>
+              </div>
+              <div class="main-section__span">
+                <div class="main-section__span-title">
+                  <span
+                    >LaslesVPN is one of the fastest-growing eCommerce
+                    communities</span
+                  >
+                </div>
+              </div>
+              <div class="main-section__link">
+                <a class="main-section__link-social" href="#"
+                  >Check our Forums ></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  
-  
+    </section>
 
-
-  <script src="./js/index.js"></script>
-</body>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
