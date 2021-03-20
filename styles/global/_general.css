@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .container {
@@ -40,5 +40,4 @@
   .container {
     max-width: 1400px;
   }
-
 }
