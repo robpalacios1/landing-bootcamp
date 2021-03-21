@@ -2077,6 +2077,8 @@
   .main-section__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    max-width: 89.688rem;
+    margin: 0 auto;
   }
   .main-section__payable {
     margin-top: 6.25rem;
@@ -2090,11 +2092,11 @@
     display: flex;
     position: absolute;
     top: 2.5rem;
-    right: 26.063rem;
+    right: 25.875rem;
   }
   .main-section__cellphone {
     margin-top: 11.25rem;
-    margin-left: 1.25rem;
+    margin-left: -3rem;
   }
   .main-section__cellphone-app {
     overflow-y: hidden;
@@ -2131,7 +2133,7 @@
   }
   .main-section__developer {
     margin-top: 17.5rem;
-    margin-left: 1.25rem;
+    margin-left: -3rem;
   }
   .main-section__developer-code {
     overflow-y: hidden;
