@@ -1,13 +1,13 @@
 .header {
-  z-index   : 99;
+  z-index: 99;
   background: #fff;
-  padding   : 1rem 0;
+  padding: 1rem 0;
 }
 
 .flexbox {
-  display        : flex;
+  display: flex;
   justify-content: space-between;
-  align-items    : center;
+  align-items: center;
 }
 
 .logo__desktop {
@@ -32,7 +32,6 @@
 
 .logo {
   display: flex;
-
   &__mobile {
     display: block;
     z-index: 999;
@@ -44,7 +43,6 @@
   display: flex;
   z-index: 999;
   cursor : pointer;
-
   &__img {
     display: block;
     width  : 1rem;
@@ -173,7 +171,6 @@
         font-weight: bold;
       }
     }
-
     &__btn {
       border          : 1px solid #FF890D;
       border-radius   : 5px;
@@ -183,7 +180,6 @@
       padding         : 7px 8px;
       text-decoration : none;
       cursor          : pointer;
-
       &:hover {
         transition      : all .3s ease-in-out;
         background-color: white;
@@ -247,61 +243,55 @@
       &:hover {
         transition      : all .3s ease-in-out;
         background-color: white;
-        color           : $dark-orange
+        color           : $dark-orange;
       }
     }
   }
 
   .logo {
     display: flex;
-
     &__desktop {
       display: block;
     }
-
     &__mobile {
       display: none;
     }
   }
 
   .menu {
-    display         : block;
-    order           : 1;
-    cursor          : pointer;
+    display: block;
+    order: 1;
+    cursor: pointer;
     background-color: white;
-
     &__list {
-      display   : flex;
+      display: flex;
       list-style: none;
       text-align: center;
     }
-
     &__item {
       align-items: center;
-      padding    : 0 1rem;
+      padding: 0 1rem;
+      &:hover::after {
+        content: "";
+        height: 5px;
+        width: 5px;
+        border-radius: 100%;
+        background: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+        visibility: visible;
+        overflow: visible;
+      }
     }
-
-    // &:hover::after {
-    //   content      : '';
-    //   height       : 5px;
-    //   width        : 5px;   
-    //   border-radius: 100%;
-    //   background   : black;
-    //   display      : block;
-    //   margin-left  : auto;
-    //   margin-right : auto;
-    //   margin-top   : 8px;
-    //   visibility   : visible;
-    //   overflow     : visible;
-    // }
-
     &__link {
-      color          : $dark-purple;
-      font-size      : 18px;
+      color: $dark-purple;
+      font-size: 18px;
       text-decoration: none;
-
       &:hover {
-        transition : all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
         font-weight: bold;
       }
     }
