@@ -36,72 +36,78 @@
   &__mobile {
     display: block;
     z-index: 999;
-    width: 1.5rem;
+    width  : 1.5rem;
   }
 }
 
 .mobile-search {
   display: flex;
   z-index: 999;
-  cursor: pointer;
+  cursor : pointer;
   &__img {
     display: block;
-    width: 1rem;
+    width  : 1rem;
   }
 }
 
 .burger {
-  width: 20px;
-  height: 20px;
-  display: flex;
+  width          : 20px;
+  height         : 20px;
+  display        : flex;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  z-index: 9999;
+  align-items    : center;
+  cursor         : pointer;
+  z-index        : 9999;
+
   &__button {
-    width: 100%;
-    height: 3px;
+    width           : 100%;
+    height          : 3px;
     background-color: $dark-orange;
+
     &::before {
       background-color: $dark-orange;
-      content: "";
-      position: absolute;
-      transform: translateY(5px);
-      width: 20px;
-      height: 3px;
+      content         : '';
+      position        : absolute;
+      transform       : translateY(5px);
+      width           : 20px;
+      height          : 3px;
     }
+
     &::after {
-      content: "";
-      position: absolute;
+      content         : '';
+      position        : absolute;
       background-color: $dark-orange;
-      transform: translateY(-5px);
-      width: 20px;
-      height: 3px;
+      transform       : translateY(-5px);
+      width           : 20px;
+      height          : 3px;
     }
   }
 }
 
 .header--active {
   .menu {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    line-height: 4;
-    cursor: pointer;
+    display         : block;
+    width           : 100%;
+    height          : 100vh;
+    cursor          : pointer;
     background-color: white;
-    bottom: 5%;
-    position: fixed;
-    z-index: 9;
+    bottom          : 0;
+    position        : fixed;
+    right           : 0;
+    overflow-y      : auto;
+    overflow-x      : hidden;
+    z-index         : 9;
+
     &__list {
-      display: flex;
+      display       : flex;
       flex-direction: column;
-      list-style: none;
-      margin-top: 9rem;
-      margin-right: auto;
-      margin-left: auto;
-      text-align: center;
+      list-style    : none;
+      margin-top    : 9rem;
+      margin-right  : auto;
+      margin-left   : auto;
+      text-align    : center;
     }
+
     &__item:hover::after {
       content: "";
       height: 5px;
@@ -113,14 +119,32 @@
       margin-right: auto;
       visibility: visible;
       overflow: visible;
+    &__item {
+      line-height: 4rem;
+
+      &:hover::after {
+        content      : '';
+        height       : 5px;
+        width        : 5px;
+        border-radius: 100%;
+        background   : black;
+        display      : block;
+        margin-left  : auto;
+        margin-right : auto;
+        margin-top   : 8px;
+        visibility   : visible;
+        overflow     : visible;
+      }
     }
+
     &__link {
-      color: $dark-purple;
-      font-size: 15px;
+      color          : $dark-purple;
+      font-size      : 15px;
       text-decoration: none;
-      width: 100px;
+      width          : 100px;
+
       &:hover {
-        transition: all 0.3s ease-in-out;
+        transition : all .3s ease-in-out;
         font-weight: bold;
       }
     }
@@ -132,9 +156,9 @@
 
   .burger__close {
     display: block;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+    width  : 20px;
+    height : 20px;
+    cursor : pointer;
     z-index: 9999;
   }
 
@@ -143,38 +167,35 @@
   }
 
   .mobile-access {
-    width: 100%;
-    position: fixed;
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    z-index: 999;
-    bottom: 8rem;
+    align-items    : center;
+
     &__login {
       text-decoration: none;
-      color: #272d4e;
-      font-size: 18px;
-      margin-right: 20px;
-      cursor: pointer;
+      color          : #272D4E;
+      font-size      : 15px;
+      margin-right   : 20px;
+      cursor         : pointer;
+
       &:hover {
-        transition: all 0.3s ease-in-out;
+        transition : all .3s ease-in-out;
         font-weight: bold;
       }
     }
     &__btn {
-      border: 1px solid #ff890d;
-      border-radius: 5px;
-      background-color: #ff890d;
-      color: #ffffff;
-      font-size: 18px;
-      padding: 5px 10px;
-      text-decoration: none;
-      display: block;
-      cursor: pointer;
+      border          : 1px solid #FF890D;
+      border-radius   : 5px;
+      background-color: #FF890D;
+      color           : #FFFFFF;
+      font-size       : 15px;
+      padding         : 7px 8px;
+      text-decoration : none;
+      cursor          : pointer;
       &:hover {
-        transition: all 0.3s ease-in-out;
+        transition      : all .3s ease-in-out;
         background-color: white;
-        color: $dark-orange;
+        color           : $dark-orange
       }
     }
   }
@@ -198,38 +219,43 @@
   }
 
   .access {
-    display: flex;
-    order: 2;
+    display    : flex;
+    order      : 2;
     align-items: center;
+
     &__login {
       text-decoration: none;
-      color: #272d4e;
-      font-size: 18px;
-      margin-right: 5px;
-      cursor: pointer;
+      color          : #272D4E;
+      font-size      : 18px;
+      margin-right   : 5px;
+      cursor         : pointer;
+
       &:hover {
-        transition: all 0.3s ease-in-out;
+        transition : all .3s ease-in-out;
         font-weight: bold;
       }
     }
+
     &__img {
       cursor: pointer;
     }
+
     &__btn {
-      margin-right: 10px;
-      border: 1px solid #ff890d;
-      border-radius: 5px;
-      background-color: #ff890d;
-      color: #ffffff;
-      font-size: 18px;
-      padding: 6px 4px;
-      text-decoration: none;
-      display: block;
-      cursor: pointer;
+      margin-right    : 10px;
+      border          : 1px solid #FF890D;
+      border-radius   : 5px;
+      background-color: #FF890D;
+      color           : #FFFFFF;
+      font-size       : 18px;
+      padding         : 6px 4px;
+      text-decoration : none;
+      display         : block;
+      cursor          : pointer;
+
       &:hover {
-        transition: all 0.3s ease-in-out;
+        transition      : all .3s ease-in-out;
         background-color: white;
-        color: $dark-orange;
+        color           : $dark-orange;
       }
     }
   }
@@ -277,6 +303,7 @@
       text-decoration: none;
       &:hover {
         transition: all 0.3s ease-in-out;
+
         font-weight: bold;
       }
     }
