@@ -2212,7 +2212,7 @@
   justify-content: center;
 }
 
-.main-service__half-circle {
+.main-service__mini-circle1 {
   display: none;
 }
 
@@ -2276,7 +2276,7 @@ a {
   .main-service__main {
     display: grid;
   }
-  .main-service__half-circle {
+  .main-service__mini-circle1 {
     display: none;
   }
   .main-service__vertical-points {
@@ -2302,12 +2302,7 @@ a {
     font-size: 20px;
   }
   .main-service__button {
-    display: flex;
-    justify-content: center;
-    background: #70c217;
-    border-radius: 60px;
-    margin: 0 250px;
-    max-width: 65%;
+    display: none;
   }
   .main-service__documentation {
     font-style: normal;
@@ -2319,12 +2314,7 @@ a {
     padding: 24.75px 37px 23.63px 26px;
   }
   .main-service__button2 {
-    display: flex;
-    justify-content: center;
-    background: #70c217;
-    border-radius: 60px;
-    margin: 0 250px;
-    max-width: 65%;
+    display: none;
   }
   .main-service__bottom {
     display: flex;
@@ -2337,14 +2327,16 @@ a {
   }
   .main-service__image {
     flex: none;
+    margin-bottom: auto;
+    overflow-y: hidden;
     position: relative;
     z-index: 1;
   }
-  .main-service__half-circle {
+  .main-service__mini-circle1 {
     display: block;
     position: absolute;
-    top: 238px;
-    left: 0;
+    top: 189px;
+    left: -28px;
   }
   .main-service__vertical-points {
     display: flex;
@@ -2355,7 +2347,7 @@ a {
   .main-service__big-circle {
     display: flex;
     position: absolute;
-    top: 282px;
+    top: 230px;
     left: 0;
     z-index: -1;
   }
@@ -2392,16 +2384,23 @@ a {
     position: relative;
   }
   .main-service__button {
-    display: flex;
-    margin-left: 565px;
+    display: block;
+    justify-content: center;
+    background: #70c217;
     position: absolute;
-    bottom: -560px;
+    margin: -30px 50px;
+    bottom: -530px;
+    border-radius: 60px;
+    max-width: 65%;
   }
   .main-service__button2 {
     display: flex;
-    margin-left: 45px;
+    background: #70c217;
+    border-radius: 60px;
+    margin: -30px 43px;
     position: absolute;
-    bottom: -1400px;
+    bottom: -1360px;
+    max-width: 65%;
   }
   .main-service__main {
     margin-top: 150px;
