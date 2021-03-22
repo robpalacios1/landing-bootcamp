@@ -1,7 +1,8 @@
 .header {
   z-index: 99;
-  background: #fff;
+  background: #E9F1FF;
   padding: 1rem 0;
+  position: relative;
 }
 
 .flexbox {
@@ -110,7 +111,6 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 7px;
       visibility: visible;
       overflow: visible;
     }
@@ -248,7 +248,7 @@
     display: block;
     order: 1;
     cursor: pointer;
-    background-color: white;
+    background-color: #E9F1FF;
     &__list {
       display: flex;
       list-style: none;
@@ -264,9 +264,9 @@
         border-radius: 100%;
         background: black;
         display: block;
+        margin-top: 5px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 7px;
         visibility: visible;
         overflow: visible;
       }
@@ -280,5 +280,11 @@
         font-weight: bold;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .menu__item:hover::after {
+    margin-top: 4px;
   }
 }
