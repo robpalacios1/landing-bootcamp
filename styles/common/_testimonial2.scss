@@ -70,7 +70,9 @@
   .cards {
     flex-direction: row;
     flex-wrap     : nowrap;
+    justify-content: center;
 
+    
     &__item {
       width: 80%;
     }
