@@ -1,14 +1,19 @@
 .banner {
-  background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e5efff 0%,
+    rgba(229, 239, 255, 0.262661) 83.7%,
+    rgba(229, 239, 255, 0) 100%
+  );
 }
 
 .row1__title {
   margin-top: 40px;
   font-weight: 500;
-  line-height: 3.260rem;
+  line-height: 3.26rem;
   font-size: 1.875rem;
   text-align: center;
-  color: #272D4E;
+  color: #272d4e;
 }
 
 .row1__img {
@@ -47,16 +52,15 @@
   cursor: pointer;
   &:hover {
     transition: all 0.3s ease-in-out;
-    background-color: white;
-    color: $dark-orange;
+    background-color: $light-orange;
   }
 }
 
 .row3__link {
   display: none;
 }
-span {
-  color:$light-gray;
+.span {
+  color: $light-gray;
 }
 
 @media only screen and (min-width: 768px) {
@@ -93,6 +97,7 @@ span {
       font-size: 5.3125rem;
       text-align: left;
       font-weight: 500;
+      overflow-y: hidden;
     }
     &__img {
       display: block;
@@ -118,7 +123,7 @@ span {
     &__text {
       font-size: 1.125rem;
       line-height: 1.5625rem;
-    } 
+    }
   }
   .row3 {
     display: grid;
@@ -142,7 +147,7 @@ span {
       margin-top: 2.1875rem;
     }
   }
-} 
+}
 
 @media only screen and (min-width: 1400px) {
   .row1 {
@@ -150,6 +155,7 @@ span {
     grid-template-columns: 6fr 3fr;
     &__title {
       max-width: 855px;
+      overflow-y: hidden;
     }
     &__img2 {
       left: 513px;
@@ -162,7 +168,7 @@ span {
       line-height: 1.75rem;
       max-width: 618px;
       font-size: 1.125rem;
-    } 
+    }
   }
   .row3 {
     grid-template-columns: 2fr 7.5fr;
@@ -174,9 +180,7 @@ span {
       line-height: 21px;
     }
     &__link {
-      font-size: 1.180rem;;
+      font-size: 1.18rem;
     }
   }
 }
-
-

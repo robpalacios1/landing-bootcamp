@@ -1,6 +1,6 @@
 .header {
   z-index: 99;
-  background: #E9F1FF;
+  background: #e9f1ff;
   padding: 1rem 0;
   position: relative;
 }
@@ -36,76 +36,76 @@
   &__mobile {
     display: block;
     z-index: 999;
-    width  : 1.5rem;
+    width: 1.5rem;
   }
 }
 
 .mobile-search {
   display: flex;
   z-index: 999;
-  cursor : pointer;
+  cursor: pointer;
   &__img {
     display: block;
-    width  : 1rem;
+    width: 1rem;
   }
 }
 
 .burger {
-  width          : 20px;
-  height         : 20px;
-  display        : flex;
+  width: 20px;
+  height: 20px;
+  display: flex;
   justify-content: center;
-  align-items    : center;
-  cursor         : pointer;
-  z-index        : 9999;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
 
   &__button {
-    width           : 100%;
-    height          : 3px;
+    width: 100%;
+    height: 3px;
     background-color: $dark-orange;
 
     &::before {
       background-color: $dark-orange;
-      content         : '';
-      position        : absolute;
-      transform       : translateY(5px);
-      width           : 20px;
-      height          : 3px;
+      content: "";
+      position: absolute;
+      transform: translateY(5px);
+      width: 20px;
+      height: 3px;
     }
 
     &::after {
-      content         : '';
-      position        : absolute;
+      content: "";
+      position: absolute;
       background-color: $dark-orange;
-      transform       : translateY(-5px);
-      width           : 20px;
-      height          : 3px;
+      transform: translateY(-5px);
+      width: 20px;
+      height: 3px;
     }
   }
 }
 
 .header--active {
   .menu {
-    display         : block;
-    width           : 100%;
-    height          : 100vh;
-    cursor          : pointer;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
     background-color: white;
-    bottom          : 0;
-    position        : fixed;
-    right           : 0;
-    overflow-y      : auto;
-    overflow-x      : hidden;
-    z-index         : 9;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 9;
 
     &__list {
-      display       : flex;
+      display: flex;
       flex-direction: column;
-      list-style    : none;
-      margin-top    : 9rem;
-      margin-right  : auto;
-      margin-left   : auto;
-      text-align    : center;
+      list-style: none;
+      margin-top: 9rem;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
     }
 
     &__item:hover::after {
@@ -119,32 +119,33 @@
       margin-right: auto;
       visibility: visible;
       overflow: visible;
-    &__item {
-      line-height: 4rem;
+      &__item {
+        line-height: 4rem;
+      }
 
       &:hover::after {
-        content      : '';
-        height       : 5px;
-        width        : 5px;
+        content: "";
+        height: 5px;
+        width: 5px;
         border-radius: 100%;
-        background   : black;
-        display      : block;
-        margin-left  : auto;
-        margin-right : auto;
-        margin-top   : 8px;
-        visibility   : visible;
-        overflow     : visible;
+        background: black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        visibility: visible;
+        overflow: visible;
       }
     }
 
     &__link {
-      color          : $dark-purple;
-      font-size      : 15px;
+      color: $dark-purple;
+      font-size: 15px;
       text-decoration: none;
-      width          : 100px;
+      width: 100px;
 
       &:hover {
-        transition : all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         font-weight: bold;
       }
     }
@@ -156,10 +157,11 @@
 
   .burger__close {
     display: block;
-    width  : 20px;
-    height : 20px;
-    cursor : pointer;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
     z-index: 9999;
+    overflow-y: hidden;
   }
 
   .access {
@@ -167,35 +169,34 @@
   }
 
   .mobile-access {
-    display        : flex;
+    display: flex;
     justify-content: center;
-    align-items    : center;
+    align-items: center;
 
     &__login {
       text-decoration: none;
-      color          : #272D4E;
-      font-size      : 15px;
-      margin-right   : 20px;
-      cursor         : pointer;
+      color: #272d4e;
+      font-size: 15px;
+      margin-right: 20px;
+      cursor: pointer;
 
       &:hover {
-        transition : all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         font-weight: bold;
       }
     }
     &__btn {
-      border          : 1px solid #FF890D;
-      border-radius   : 5px;
-      background-color: #FF890D;
-      color           : #FFFFFF;
-      font-size       : 15px;
-      padding         : 7px 8px;
-      text-decoration : none;
-      cursor          : pointer;
+      border: 1px solid #ff890d;
+      border-radius: 5px;
+      background-color: #ff890d;
+      color: #ffffff;
+      font-size: 15px;
+      padding: 7px 8px;
+      text-decoration: none;
+      cursor: pointer;
       &:hover {
-        transition      : all .3s ease-in-out;
-        background-color: white;
-        color           : $dark-orange
+        transition: all 0.3s ease-in-out;
+        background-color: $light-orange;
       }
     }
   }
@@ -219,19 +220,19 @@
   }
 
   .access {
-    display    : flex;
-    order      : 2;
+    display: flex;
+    order: 2;
     align-items: center;
 
     &__login {
       text-decoration: none;
-      color          : #272D4E;
-      font-size      : 18px;
-      margin-right   : 5px;
-      cursor         : pointer;
+      color: #272d4e;
+      font-size: 18px;
+      margin-right: 5px;
+      cursor: pointer;
 
       &:hover {
-        transition : all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         font-weight: bold;
       }
     }
@@ -241,21 +242,20 @@
     }
 
     &__btn {
-      margin-right    : 10px;
-      border          : 1px solid #FF890D;
-      border-radius   : 5px;
-      background-color: #FF890D;
-      color           : #FFFFFF;
-      font-size       : 18px;
-      padding         : 6px 4px;
-      text-decoration : none;
-      display         : block;
-      cursor          : pointer;
+      margin-right: 10px;
+      border: 1px solid #ff890d;
+      border-radius: 5px;
+      background-color: #ff890d;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 6px 4px;
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
 
       &:hover {
-        transition      : all .3s ease-in-out;
-        background-color: white;
-        color           : $dark-orange;
+        transition: all 0.3s ease-in-out;
+        background-color: $light-orange;
       }
     }
   }
@@ -274,7 +274,7 @@
     display: block;
     order: 1;
     cursor: pointer;
-    background-color: #E9F1FF;
+    background-color: #e9f1ff;
     &__list {
       display: flex;
       list-style: none;
@@ -303,7 +303,6 @@
       text-decoration: none;
       &:hover {
         transition: all 0.3s ease-in-out;
-
         font-weight: bold;
       }
     }
