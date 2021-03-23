@@ -4,6 +4,16 @@
   padding: 1rem 0;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $white;
+  .menu {
+    background-color: $white;
+  }
+}
+
 .flexbox {
   display: flex;
   justify-content: space-between;
