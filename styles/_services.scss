@@ -1,13 +1,11 @@
 .main-service {
-  background-color: $dark-orange;
+  background-image: url(../assets/orange-rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: auto;
   margin-top: 101px;
-}
-
-.container {
-  max-width: 89.688rem;
-  margin: 0 auto;
 }
 
 .main-service__image {
@@ -140,6 +138,16 @@ a {
 @media screen and (min-width: 1200px) {
   .main-service__top {
     display: flex;
+  }
+
+  .container1 {
+    max-width: 89.688rem;
+    margin: 0 auto;
+  }
+
+  .container2 {
+    max-width: 89.688rem;
+    margin: 0 auto;
   }
 
   .main-service__image {
