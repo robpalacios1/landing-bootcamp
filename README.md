@@ -18,12 +18,13 @@
 ![final](assets/lasles-vpn.png)
 
 ## General 
-The code was worked with the BEM structure and the styling was done with SASS a CSS's processor.
+- The code was worked with the BEM structure and the styling was done with SASS a CSS's processor.
 
-The PNG images was optimized with the following website: https://tinypng.com/
+- The PNG images was optimized with the following website: https://tinypng.com/
 
-The URL of the project is as follows: https://landing-bootcamp-robpalacios1.vercel.app/
+- The SVG images was optimized with the following website: https://jakearchibald.github.io/svgomg/
 
+- The URL of the project is as follows: https://landing-laslesvpn.netlify.app/
 
 
 ## Authors :book:
