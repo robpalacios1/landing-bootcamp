@@ -147,7 +147,7 @@ a {
 
   .container2 {
     max-width: 89.688rem;
-    margin: 0 auto;
+    margin-top: -250px;
   }
 
   .main-service__image {
@@ -168,7 +168,7 @@ a {
   .main-service__vertical-points {
     display: flex;
     position: absolute;
-    top: 272px;
+    top: 437px;
     left: 0;
   }
 
@@ -249,5 +249,6 @@ a {
   .main-service__main {
     margin-top: 150px;
     position: relative;
+    right: -181px;
   }
 }
