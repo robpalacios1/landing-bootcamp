@@ -17,15 +17,12 @@
 ## Design
 ![final](assets/lasles-vpn.png)
 
-##General 
+## General 
 The code was worked with the BEM structure and the styling was done with SASS a CSS's processor.
 
-The SVG of the images was optimized with the following website: https://jakearchibald.github.io/svgomg/
+The PNG images was optimized with the following website: https://tinypng.com/
 
-The project was developed mobile first and then worked with the following media queries:
-
-
-The URL of the project is as follows: 
+The URL of the project is as follows: https://landing-bootcamp-robpalacios1.vercel.app/
 
 
 
