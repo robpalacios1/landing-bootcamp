@@ -88,6 +88,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .container {
+    position: relative;
+  }
   .row1 {
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -107,8 +110,8 @@
     &__img2 {
       position: absolute;
       display: block;
-      top: -118px;
-      left: 314px;
+      top: -187px;
+      left: 433px;
       z-index: -1;
     }
   }
@@ -158,8 +161,8 @@
       overflow-y: hidden;
     }
     &__img2 {
-      left: 513px;
-      top: 37px;
+      left: 474px;
+      top: -47px;
     }
   }
   .row2 {

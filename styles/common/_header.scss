@@ -2,7 +2,6 @@
   z-index: 99;
   background: #e9f1ff;
   padding: 1rem 0;
-  position: relative;
 }
 
 .flexbox {
@@ -97,7 +96,6 @@
     overflow-y: auto;
     overflow-x: hidden;
     z-index: 9;
-
     &__list {
       display: flex;
       flex-direction: column;
@@ -107,43 +105,27 @@
       margin-left: auto;
       text-align: center;
     }
-
-    &__item:hover::after {
-      content: "";
-      height: 5px;
-      width: 5px;
-      border-radius: 100%;
-      background: black;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      visibility: visible;
-      overflow: visible;
-      &__item {
-        line-height: 4rem;
-      }
-
+    &__item {
+      line-height: 4rem;
       &:hover::after {
         content: "";
         height: 5px;
         width: 5px;
         border-radius: 100%;
         background: black;
+        margin-top: 5px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 8px;
         visibility: visible;
-        overflow: visible;
+        overflow-y: hidden;
       }
     }
-
     &__link {
       color: $dark-purple;
       font-size: 15px;
       text-decoration: none;
       width: 100px;
-
       &:hover {
         transition: all 0.3s ease-in-out;
         font-weight: bold;
@@ -170,6 +152,7 @@
 
   .mobile-access {
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
 
