@@ -2527,6 +2527,11 @@ a {
   .main-service__top {
     display: flex;
   }
+  .main-service__main-top {
+    margin-top: 150px;
+    position: relative;
+    right: -30px;
+  }
   .container1 {
     max-width: 89.688rem;
     margin: 0 auto;
@@ -2620,7 +2625,7 @@ a {
     transition: all 0.3s ease-in-out;
     background-color: #96d94e;
   }
-  .main-service__main {
+  .main-service__main-bottom {
     margin-top: 150px;
     position: relative;
     right: -181px;
