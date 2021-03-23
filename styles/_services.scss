@@ -206,7 +206,6 @@ a {
     max-width: 74%;
     margin-bottom: 380px;
     margin-left: 50px;
-    position: relative;
   }
 
   .main-service__button {
@@ -215,7 +214,7 @@ a {
     background: #70c217;
     position: absolute;
     margin: -30px 50px;
-    bottom: -580px;
+    bottom: 290px;
     border-radius: 60px;
     max-width: 65%;
   }
@@ -226,11 +225,12 @@ a {
     border-radius: 60px;
     margin: -30px 43px;
     position: absolute;
-    bottom: -1415px;
+    bottom: 290px;
     max-width: 65%;
   }
 
   .main-service__main {
     margin-top: 150px;
+    position: relative;
   }
 }
