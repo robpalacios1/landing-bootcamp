@@ -2283,6 +2283,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 89.688rem;
     margin: 0 auto;
+    width: 90vw;
   }
   .main-section__payable {
     margin-top: 6.25rem;
@@ -2452,6 +2453,14 @@
   font-size: 18px;
   line-height: 30px;
   color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-service__text {
+  width: 90vw;
+  margin-top: 20px;
 }
 
 .main-service__button {
